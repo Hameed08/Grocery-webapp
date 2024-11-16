@@ -1,2 +1,36 @@
-# Grocery-webapp
-A user-friendly web application for seamless online grocery shopping. This app allows users to browse, search, and purchase groceries, manage their cart, and track orders. Built with a modern tech stack, it emphasizes performance, security, and an intuitive user experience for efficient online grocery shopping.
+## "Grocery Store" - MERN Stack E-commerce Web Application
+
+
+Grocery Store is E-commerce Web Application built using MERN Stack. It has all the general features like product search, product rating & review system, cart checkout, payment gateway integration & pagination. Also admin can manage users, products & orders.
+
+
+
+
+#### `How to run locally?`
+
+```bash
+
+cd online-grocerystore
+npm install
+cd frontend
+npm install
+# To run server you must have .env file in root project directory
+# see below .env file structure and replace with your values
+npm run dev
+# project starts
+
+```
+
+#### `.env File Structure`
+
+```bash
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = mongosh "mongodb+srv://myatlasclusteredu.qz64q.mongodb.net/" --apiVersion 1 --username myAtlasDBUser
+JWT_SECRET = 'xxxxx'
+PAYPAL_CLIENT_ID = your paypal client id
+
+```
+
+
+ 
